@@ -6,8 +6,8 @@ import re
 import pymysql
 import time
 
-conn = pymysql.connect(host='127.0.0.1', user='root', passwd='123456', db='3.20')
-cursor = conn.cursor()      # 连接数据库及光标
+# conn = pymysql.connect(host='127.0.0.1', user='root', passwd='123456', db='3.20')
+# cursor = conn.cursor()      # 连接数据库及光标
 
 # 加入请求头
 headers = {
